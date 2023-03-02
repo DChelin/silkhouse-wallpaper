@@ -298,6 +298,7 @@ function remove_dimensions_filter( $dim_filter ) {
         $length = $product->get_length();
 
         //  CONVERT TO METER
+        // DEVDEV FIX BELOW - CALCULATOR STR + INT ISSUES WHICH WAS NOT ALLOWING DISPLAY. 
         $pattern_height = intval($height) / 100;
         //$pattern_height= $height/100;
         $pattern_width = intval($width) / 100;
