@@ -161,7 +161,7 @@ $table_prefix = 'ym_';
 
  */
 
-define( 'WP_DEBUG', true );
+define( 'WP_DEBUG', false );
 
 define( 'WP_MEMORY_LIMIT', '64M' );
 
